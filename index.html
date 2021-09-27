@@ -3,21 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animacao.css">
     <title>The Lord Traveller</title>
 </head>
 
 <body>
-
     <header>
-        <h1>The Lord Traveller</h1>
+
+        <img class="linha" src="./img/linha2.png" alt="linha de separação">
+
+        <h1 class="titulo_principal">The Lord Traveller</h1>
         <p class="frase">O mundo não está em seus livros e mapas. Ele está lá fora! <span class="autor">Gandalf</span>
         </p>
 
 
-
-        <img src="IMG/Logotipo redes sociais-01.png" alt="Whatsapp" width="20px">
+        <img class="linha" src="./img/linha2.png" alt="linha de separação">
+        <!-- <img src="IMG/Logotipo redes sociais-01.png" alt="Whatsapp" width="20px">
         <img src="IMG/Logotipo redes sociais-02.png" alt="Instagram" width="20px">
         <img src="IMG/Logotipo redes sociais-03.png" alt="Facebook" width="20px">
         <nav>
@@ -27,68 +31,86 @@
                 <li><a href="">História</a></li>
                 <li><a href="">Contato</a></li>
             </ul>
-        </nav>
+        </nav> -->
 
-        <h2>Faça uma viajem pela Nova Zelândia e conheça lugares reais do filme O Senhor dos Anéis e O Hobbit.</h2>
 
     </header>
+    <h2 class="chamada">Faça uma viajem pela Nova Zelândia e conheça Hobbiton Movie Set local onde foi gravado o filme <br>
+         O Senhor dos Anéis e O Hobbit.
+    </h2>
 
-    <img src="IMG/hobbiton-movie-set.webp" alt="paisagem" width="460px">
+    <section class="carrossel">
+        <div class="fotos_carrossel">
+            <img src="./img/hobbiton-movie-set-18.jpeg" alt="casa Hobbit">
+            <img src="./img/hobbiton-movie-set-3.webp" alt="banquete noturno">
+            <img src="./img/tour_noturno.webp" alt="tour noturno">
+            <img src="./img/cafe_da_manha.jpeg" alt="café da manhã">
+            <img src="./img/hobbiton-movie-set-18.jpeg" alt="casa Hobbit">
 
-    <div id="barrainf.">
+        </div>
+    </section>
+
+
+    <div id="barra_info">
         <img src="IMG/location.png" alt="localização" width="20px">
         <label class="localizacao">Localização</label>
-        <p><b>Piopia, Nova Zelândia</b></p>
-
-        <img src="IMG/Data.png" alt="data" width="20px">
-        <label class="data">Data para visitação</label>
-        <p><b>15 set. - 20 out.</b></p>
-
-        <img src="IMG/money.png" alt="Valor entrada" width="20px">
-        <label class="valor">Valor entrada</label>
-        <p><b>R$ 30,00 pessoa</b></p>
+        <p><b>Matamata, Nova Zelândia</b></p>
     </div>
 
-    <div id="container">
-        <img src="IMG/bilbo_hobbit.jpeg" alt="Bilbo correndo" width="200px">
-        <a href="./movieset.html">
-            <h2>Hobbiton Movie Set</h2>
-        </a>
-        <p>Eii corre aqui, deixa eu te mostrar a nossa encantadora Vila dos Hobbits, sou o Bilbo e estou aqui pra te
-            apresentar este mundo incrível. Conheça o <a href="./movieset.html">
-                Hobbiton Movie Set.</a>
-        </p>
-       
-    </div>
+    <div class="cont_principal">
 
-    <div>
-        <h2>Tour de Banquete Noturno</h2>
-        <p>Arrume a mesa que nós anões chegamos para o * Tour de Banquete Noturno * oferecido pelo povo do condado.
-          <a href="tourbanquete.html">
-        </p>
-        <img src="IMG/banquete_anoes.jpg" alt="Banquete do Bilbo com anôes" width="200px">
-    </div>
+        <div class="campo_esq">
+            <img class="imagem_inicio" src="IMG/bilbo_hobbit.jpeg" alt="Bilbo correndo">
+            <div class="texto_card">
 
-    <div>
-        <img src="IMG/Samwise Gamgi.jpg" alt="Banquete do Bilbo com anôes" width="200px">
-        <h2>Outras Experiências</h2>
-        <p>Nós Hobbits adoramos uma festa, sou o Samwise e vou te apresentar outras experiências mágicas para conmhecer
-            aqui na nossa vila:
-            Segunda excursão com café da manhã
-            Festa da colheita de verão
-            Festa do meio do inverno
-            <a href="experiencias.html">
-        </p>
+                <a href="./movieset.html">
+                    <h2 class="titulo_card">Hobbiton Movie Set</h2>
+                </a>
+                <p>Eii corre aqui comigo, deixa eu te mostrar a nossa encantadora Vila dos Hobbits, sou o Bilbo e estou
+                    aqui
+                    pra te
+                    apresentar este mundo incrível. Conheça o <a href="./movieset.html">
+                        Hobbiton Movie Set.</a>
+                </p>
+            </div>
 
+        </div>
+
+        <div class="campo_dir">
+            <div class="texto_card">
+                <a href="banquetenoturno.html">
+                    <h2 class="titulo_card">Excursão do Banquete Noturno</h2>
+                </a>
+                <p>Arrume a mesa que nós anões chegamos para a <a href="tourbanquete.html">Excursão do Banquete Noturno</a> oferecida pelo povo do
+                    condado.
+                             </p>
+            </div>
+            <img class="imagem_inicio" src="IMG/banquete_anoes.jpg" alt="Banquete do Bilbo com anôes">
+        </div>
+
+        <div class="campo_esq">
+            <img class="imagem_inicio" src="IMG/Samwise Gamgi.jpg" alt="Sanwise Gamgi">
+            <div class="texto_card">
+                <a href="experiencias.html">
+                    <h2 class="titulo_card">Outras Experiências</h2>
+                </a>
+
+                <p>Nós Hobbits adoramos uma festa, sou o Samwise e vou te apresentar outras experiências mágicas para
+                    conmhecer
+                    aqui na nossa vila:
+                    Segunda excursão com café da manhã
+                    Festa da colheita de verão
+                    Festa do meio do inverno
+
+                </p>
+            </div>
+        </div>
     </div>
 
     <footer>
         <h4>
-            TODOS OS DIREITOS RESERVADO A GULLIVER TRAVEL &#169
+            Produzido pelos alunos da FIAP
         </h4>
-        <h5>
-            PRODUZIDO POR &#169
-        </h5>
     </footer>
 
 </body>
