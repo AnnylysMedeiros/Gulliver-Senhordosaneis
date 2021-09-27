@@ -12,9 +12,9 @@
 
 * {
     box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -27,6 +27,7 @@ body {
     text-align: center;
     font-size: 90px;
     color: #D98D30;
+    text-shadow: 0.07em 0.06em 0.05em #7a3b04;
 }
 
 
@@ -34,7 +35,7 @@ body {
     font-family: 'Bilbo Swash Caps';
     font-size: 35px;
     text-align: center;
-    color: #BF702A;
+    color: #7a3b04;
 }
 
 .linha {
@@ -46,9 +47,9 @@ body {
 }
 
 .subtitulos {
-   font-size: 60px;
-   text-align: center;
-
+    font-size: 55px;
+    text-align: center;
+    color: #333;
 }
 
 
@@ -60,6 +61,7 @@ body {
     padding-top: 60px;
     font-size: 28px;
     text-shadow: 0.1em 0.1em 0.05em #333;
+    /*sombra */
 }
 
 .carrossel {
@@ -82,6 +84,18 @@ body {
     height: 360px;
 }
 
+#barra_info {
+    /* border: 1px solid #333; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* Não consegui centralizar */
+}
+
+.imagem_outras_pgs {
+    margin-top: 30px;
+}
+
 
 h2 p {
     float: right;
@@ -92,49 +106,38 @@ h2 p {
     height: 70%;
     background-color: rgba(36, 35, 35, 0.171);
     border-radius: 15px;
-    flex-direction: column;
+    margin-top: 25px;
     display: flex;
-    align-items: flex-start;
-    margin: 0 center;
-}
+    justify-content: space-between;
+    } 
 
-.campo_esq {
-    width: 450px;
-    height: 250px;
+.cards {
+    width: 350px;
+    height: 600px;
     background-color: #BF702A;
+    border: 2px solid #333;
     border-radius: 15px;
-    margin: 20px 0 20px 20px;
-    display: flex;
-    align-items: center;
+    margin: 25px;
+    /* align-items: center; */
 }
 
-.campo_dir {
-    width: 450px;
-    height: 250px;
-    background-color: #BF702A;
-    border-radius: 15px;
-    /* text-align: end; */
-    align-self: flex-end;
-    margin-right: 20px;
-    /* left: 750px; */
-    display: flex;
-}
-
-.imagem_inicio {
-    width: 200px;
-    height: 150px;
+.imagem_card {
+    width: 300px;
+    height: 200px;
     border-radius: 15px;
     margin: 20px 20px 20px 20px;
 }
 
 .titulo_card {
-    font-family: 'Fleur De Leah';
-    font-size: 30px;
+    font-size: 25px;
+    color: #333;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .texto_card {
-    display: flex;
-    flex-direction: column;
-    font-family: ;
+    font-size: 21px;
+    text-align: center;
+    margin: 20px 0 0 0;
 }
 
