@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caudex&family=Fleur+De+Leah&display=swap');
-
 @font-face {
     font-family: 'ringbearermedium';
-    src: url('./ringbearermedium-51mgz-webfont.woff2') format('woff2'),
-        url('./ringbearermedium-51mgz-webfont.woff') format('woff');
+    src: url('./ringbearermedium-51mgz-webfont.woff2') format('woff2'), url('./ringbearermedium-51mgz-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 * {
     box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -28,7 +26,6 @@ body {
     font-size: 90px;
     color: #D98D30;
 }
-
 
 .frase {
     font-family: 'Bilbo Swash Caps';
@@ -45,12 +42,18 @@ body {
     align-items: center;
 }
 
-.subtitulos {
-   font-size: 60px;
-   text-align: center;
-
+.redesociais {
+    width: 1000px;
+    height: 48px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
+.subtitulos {
+    font-size: 60px;
+    text-align: center;
+}
 
 .chamada {
     position: relative;
@@ -81,7 +84,6 @@ body {
     /* width: 1300px; */
     height: 360px;
 }
-
 
 h2 p {
     float: right;
@@ -137,4 +139,3 @@ h2 p {
     flex-direction: column;
     font-family: ;
 }
-
