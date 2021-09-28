@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caudex&family=Fleur+De+Leah&display=swap');
-
 @font-face {
     font-family: 'ringbearermedium';
     src: url('./ringbearermedium-51mgz-webfont.woff2') format('woff2'),
@@ -29,7 +28,6 @@ body {
     color: #D98D30;
     text-shadow: 0.07em 0.06em 0.05em #7a3b04;
 }
-
 
 .frase {
     font-family: 'Bilbo Swash Caps';
@@ -88,6 +86,7 @@ body {
     height: 360px;
 }
 
+
 #barra_info {
     background-color: #fff;
     color: #333;
@@ -115,6 +114,7 @@ body {
     font-weight: 900;
     text-shadow: 0.07em 0.06em 0.05em #333;
 }
+
 
 
 h2 p {
@@ -160,6 +160,7 @@ h2 p {
 }
 
 .texto_card {
+
     font-size: 21px;
     text-align: center;
     margin: 20px 20px 20px 20px;
