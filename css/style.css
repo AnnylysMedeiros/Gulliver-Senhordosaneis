@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caudex&family=Fleur+De+Leah&display=swap');
 @font-face {
     font-family: 'ringbearermedium';
-    src: url('./ringbearermedium-51mgz-webfont.woff2') format('woff2'), url('./ringbearermedium-51mgz-webfont.woff') format('woff');
+    src: url('./ringbearermedium-51mgz-webfont.woff2') format('woff2'),
+        url('./ringbearermedium-51mgz-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,6 +36,10 @@ body {
     color: #7a3b04;
 }
 
+.frase span {
+    font-size: 25px;
+}
+
 .linha {
     width: 1000px;
     height: 48px;
@@ -49,6 +54,7 @@ body {
     color: #333;
 }
 
+
 .chamada {
     position: relative;
     margin-bottom: -100px;
@@ -56,7 +62,7 @@ body {
     text-align: center;
     padding-top: 60px;
     font-size: 28px;
-    text-shadow: 0.1em 0.1em 0.05em #333;
+    text-shadow: 0.1em 0.06em 0.05em rgb(39, 39, 39);
     /*sombra */
 }
 
@@ -80,17 +86,20 @@ body {
     height: 360px;
 }
 
+
 #barra_info {
     background-color: #fff;
     color: #333;
-    width: 350px;
-    height: 40px;
-    margin-right: 450px;
-    margin-left: 450px;
+    width: 260px;
+    height: 60px;
+    margin-left: 500px;
     font-size: 20px;
-    align-items: center;
-    display: flex;
-    border-radius: 15px;
+    text-align: center;
+    margin-top: -23px;
+    /* align-items: center; */
+    border-radius: 10px;
+    position: absolute;
+    /* display: block; */
 }
 
 .imagem_outras_pgs {
@@ -99,6 +108,17 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.titulo_experiencias {
+    font-size: 55px;
+    color: #fff;
+    margin-top: -80px;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 0.07em 0.06em 0.05em #333;
+}
+
+
 
 h2 p {
     float: right;
@@ -110,6 +130,7 @@ h2 p {
     background-color: rgba(36, 35, 35, 0.171);
     border-radius: 15px;
     margin-top: 25px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -120,7 +141,7 @@ h2 p {
     background-color: #BF702A;
     border: 2px solid #333;
     border-radius: 15px;
-    margin: 25px;
+    margin: 35px;
     /* align-items: center; */
 }
 
@@ -128,24 +149,34 @@ h2 p {
     width: 300px;
     height: 200px;
     border-radius: 15px;
-    margin: 20px 20px 20px 20px;
+    margin-bottom: 15px;
+}
+
+.img_esp {
+    margin-top: 45px;
 }
 
 .titulo_card {
     font-size: 25px;
     color: #333;
-    padding-top: 20px;
     text-align: center;
 }
 
 .texto_card {
+
     font-size: 21px;
     text-align: center;
-    margin: 20px 0 0 0;
+    margin: 20px 20px 20px 20px;
 }
 
-.subtitulos {
-    color: #333;
+ul {
+    list-style-position:outside;
+    margin-left: 35px;
+}
+
+a {
+    color: black;
+    font-weight: 900;
 }
 
 .mascote {
@@ -168,6 +199,11 @@ h2 p {
     margin-top: 80px;
 }
 
+a:hover {
+    color: #7a3b04;
+    text-shadow: 0.07em 0.06em 0.05em #333;
+}
+
 .cards_02 {
     display: flex;
     width: 1500px;
@@ -183,4 +219,12 @@ h2 p {
     line-height: 27px;
     margin: 20px 0 0 0;
     /* align-items: center; */
+}
+
+footer {
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
