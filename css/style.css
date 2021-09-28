@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caudex&family=Fleur+De+Leah&display=swap');
-
 @font-face {
     font-family: 'ringbearermedium';
-    src: url('./ringbearermedium-51mgz-webfont.woff2') format('woff2'),
-        url('./ringbearermedium-51mgz-webfont.woff') format('woff');
+    src: url('./ringbearermedium-51mgz-webfont.woff2') format('woff2'), url('./ringbearermedium-51mgz-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -30,7 +28,6 @@ body {
     text-shadow: 0.07em 0.06em 0.05em #7a3b04;
 }
 
-
 .frase {
     font-family: 'Bilbo Swash Caps';
     font-size: 35px;
@@ -51,7 +48,6 @@ body {
     text-align: center;
     color: #333;
 }
-
 
 .chamada {
     position: relative;
@@ -94,13 +90,12 @@ body {
     font-size: 20px;
     align-items: center;
     display: flex;
-        border-radius: 15px;
+    border-radius: 15px;
 }
 
 .imagem_outras_pgs {
     margin-top: 30px;
 }
-
 
 h2 p {
     float: right;
@@ -144,4 +139,8 @@ h2 p {
     font-size: 21px;
     text-align: center;
     margin: 20px 0 0 0;
+}
+
+.subtitulos {
+    color: #333;
 }
