@@ -82,8 +82,8 @@ body {
 }
 
 .fotos_carrossel img {
-    width: 1285px;
-    /* width: 1300px; */
+    width: 20%;
+    /* width: 1285px; */
     height: 360px;
 }
 
@@ -91,7 +91,7 @@ body {
 #barra_info {
     background-color: #fff;
     color: #333;
-    width: 260px;
+    width: 20%;
     height: 60px;
     margin-left: 500px;
     font-size: 20px;
@@ -99,8 +99,8 @@ body {
     margin-top: -23px;
     border-radius: 10px;
     position: absolute;
+  }
 
-}
 
 .imagem_outras_pgs {
     margin-top: 30px;
