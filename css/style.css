@@ -213,6 +213,13 @@ a {
     
 }
 
+embed {
+    display: flex;
+    margin: 20px auto;
+    width: 870px;
+     height: 450px;
+}
+
 .cards_02 {
     width: 75%;
     height: 600px;
