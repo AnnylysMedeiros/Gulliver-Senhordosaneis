@@ -92,13 +92,14 @@ body {
     background-color: #fff;
     color: #333;
     width: 20%;
-    height: 60px;
-    margin-left: 500px;
+    height: 65px;
+    position: relative;
+    margin: 0 auto;
     font-size: 20px;
     text-align: center;
-    margin-top: -23px;
+    margin-top: -18px;
     border-radius: 10px;
-    position: absolute;
+
   }
 
 
@@ -129,7 +130,7 @@ h2 p {
     height: 70%;
     background-color: rgba(36, 35, 35, 0.171);
     border-radius: 15px;
-    margin-top: 25px;
+    margin-top: 5px;
     margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
@@ -213,6 +214,13 @@ a {
     
 }
 
+embed {
+    display: flex;
+    margin: 20px auto;
+    width: 870px;
+     height: 450px;
+}
+
 .cards_02 {
     width: 75%;
     height: 600px;
@@ -228,6 +236,7 @@ a {
     text-align: center;
     color: #333;
 }
+
 
 .informacoes {
     font-size: 19px;
