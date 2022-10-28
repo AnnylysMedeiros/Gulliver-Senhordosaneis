@@ -3,4 +3,4 @@ Desafio: Desenvolver um site com o tema de um filme ou serie, apresentando um po
 Filme escolhido: O Senhor dos Anéis <br>
 Local escolhido: Hobbiton Movie Set, Matamata - Nova Zelândia. <br>
 Para visualização acesse: <br>
-https://annylysmedeiros.github.io/Gulliver-Senhordosaneis/
+https://annylysmedeiros.github.io/Pagina_filme/
